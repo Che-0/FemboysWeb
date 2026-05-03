@@ -80,3 +80,27 @@
   margin: 0 auto;
 
 }
+
+
+/* Footer styles */
+#footer a.text-white-50 {
+  color: rgba(255,255,255,0.7);
+}
+
+#footer a.text-white-50:hover {
+  color: #ffffff;
+}
+
+#footer .btn-outline-light {
+  border-color: rgba(255,255,255,0.18);
+}
+
+#footer .btn-outline-light:hover {
+  border-color: rgba(255,255,255,0.35);
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  #footer .col-md-4 { text-align: center; }
+  #footer .btn { margin-bottom: 8px; }
+}
